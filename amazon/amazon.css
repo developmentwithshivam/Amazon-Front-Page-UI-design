@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#leftnav{
+    width: 215px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#logo{
+    width: 113px;
+    height: 50px;
+    background-image: url(https://www.thesun.co.uk/wp-content/uploads/2022/02/Amazon-Logo-1024x426-1.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.address{
+    width: 80px;
+    height: 30px;
+    padding: 8px;
+    margin-top: 5px;
+    padding-left: 15px;
+       
+}
+
+
+#addressfirstline{
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 15.5px;
+    
+}
+#addresslogoboth{
+    display: flex;
+    font-weight: bolder;
+    font-size: 14px;
+   
+}
+#addresslogo{
+    /* padding-top: 55px; */
+    font-size: 16px;
+}
+#addresssecondline{
+    margin-left: 3px;
+    margin-top: 2px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+/* center nav */
+.centernav{
+    width: 875px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+}
+.centernav:hover{
+    border: 2px solid #f0a504;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.select{
+    width: 51px;
+    height: 40px;
+    color: #0F1111;
+background-color: #E6E6E6;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border: none;
+text-align: center;
+}
+.placeholder{
+    height: 38px;
+    width: 100%;
+    margin: 0px;
+    border: none;
+    font-size: large;
+    text-align: left;
+    padding-left: 15px;
+}
+.search{
+    height: 40px;
+    width: 45px;
+    background-color: #f0a504;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tools{
+    display: flex;
+    align-items: center;
+    width: 384px;
+    height: 58px;
+}
+#toolselect{
+    width: 74px;
+    height: 50px;
+    background-color: #000000;
+    text-align: center;
+}
+.accountlist{
+    width: 132px;
+    height: 40px;
+    padding-top: 10px;
+}
+.accountlistpara{
+    font-size: 12px;
+    text-align: left;
+    padding-left: 5px;
+}
+.accountlistselect{
+    background-color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+}
+.return{
+    width: 77px;
+    height: 40px;
+    padding-top: 10px;
+}
+.returnpara1{
+    font-size: 12px;
+    text-align: center;
+}
+.cart{
+    width: 84px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cartlogo{
+    font-size: x-large;
+}
+#cartpara{
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 12px;
+}
+
+
+.pannel{
+    width: 100%;
+    height: 39px;
+    background-color:#222f3d;
+    display: flex;
+    justify-content: space-between;
+}
+.subpannel{
+    width: 40%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+.subpannelitemall{
+    font-size: medium;
+    font-weight: 700;
+    padding: 8px;
+}
+.subpannelitem{
+    padding: 8px;
+    margin-left: 3px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+
+.herosection{
+    height: 300px;
+    background-image: url(main_img2.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.message{
+    height: 50px;
+    width: 95%;
+    background-color: rgba(229, 229, 229, 0.8);
+    color: #0F1111;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-weight: 700;
+}
+.boxdiv{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(97, 99, 98 ,0.3);
+    /* flex-wrap: wrap; */
+}
+.box{
+    width: 350px;
+    height: 400px;
+    background-color: #ffffff;
+    /* border: 2px solid black; */
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+.image{
+    
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.back{
+    height: 50px;
+    background-color: #222f3dc7;
+    border-top: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.links{
+    height: 400px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+}
+.links a{
+    display: block;
+}
+.linkselement{
+    padding-top: 30px;
+}
+.linkselement a{
+    padding-top: 15px;
+    font-size: 14px;
+}
+.linkselement p{
+    font-weight: 700;
+    font-size: 16px;
+}
+.copyright{
+    background-color: #0F1111;
+    font-size: 12px;
+    text-align: center;
+    /* padding: 60px; */
+    height: 100px;
+}
+.copyrightelement{
+    padding-top: 30px;
+}
+.copyrightelement p{
+    padding-top: 8px;
+}
+.copyrightelement a{
+    padding-left: 8px;
+}
